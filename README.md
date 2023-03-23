@@ -1,6 +1,9 @@
 # Pib - Software  setup
 Pib stands for printable intelligent bot and is a (smart) humanoid robot to build yourself with 3D printing.
-![Pib](https://github.com/mazeninvent/mo/blob/8de1ee4367bac16638b9c30a1c61f8a8f19010ab/IMG-8464.jpg | width=150)
+
+<p align="center">
+  <img width="250" height="360" src="https://github.com/mazeninvent/mo/blob/ab9138e3f7f0c4923982455f656123f1483668ce/IMG-8464.jpg">
+</p>
 
 We believe that humanoid robots 🤖 will bring the next big change to society. In interaction with artificial intelligence 👨‍💻, they will support us more and more in our everyday life, so that we can deal with topics that bring us joy. We can thus enjoy more time, freedom and security 😊.
 
