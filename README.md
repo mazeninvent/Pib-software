@@ -16,7 +16,7 @@ The shell script installs:
 - Git, Curl, Pip, Python3
 - DepthAI including (OpenCV and Numpy)
 - ROS 2 humble
-- Tinkerforge software (Brick Daemon, Brick viewer, Python API bindings
+- Tinkerforge software (Brick Daemon, Brick viewer, Python API bindings)
 
 ## Copy this command/s into the Ubuntu terminal to install all Pib software
 
