@@ -5,13 +5,13 @@
 #./Pib.sh
 #This shell script is used to install all Pib required software
 #Basic dependencies needed in installation 
-sudo apt update
-sudo apt upgrade
-sudo apt install python3-pip
-sudo apt install curl
-sudo apt install git
-sudo apt update
-sudo apt upgrade
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install python3-pip
+sudo apt-get install curl
+sudo apt-get install git
+sudo apt-get update
+sudo apt-get upgrade
 #ROS 2
 #step1
 locale  # check for UTF-8
@@ -24,26 +24,26 @@ locale  # verify settings
 sudo apt install software-properties-common
 sudo add-apt-repository universe
 #step3
-sudo apt update && sudo apt install curl
+sudo apt-get update && sudo apt-get install curl
 sudo curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -o /usr/share/keyrings/ros-archive-keyring.gpg
 #step4
 echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-archive-keyring.gpg] http://packages.ros.org/ros2/ubuntu $(. /etc/os-release && echo $UBUNTU_CODENAME) main" | sudo tee /etc/apt/sources.list.d/ros2.list > /dev/null
 #step5
-sudo apt update
-sudo apt upgrade
+sudo apt-get update
+sudo apt-get upgrade
 #step6
-sudo apt install ros-humble-desktop
+sudo apt-get install ros-humble-desktop
 #step7
-sudo apt install ros-dev-tools
+sudo apt-get install ros-dev-tools
 #step8
 source /opt/ros/humble/setup.bash
 #TinkerForge software including Brick Daemon, Brick Viewer and Python API bindings
 #brick daemon
-sudo apt install libusb-1.0-0 libudev1 procps
+sudo apt-get install libusb-1.0-0 libudev1 procps
 wget --backups=1 https://download.tinkerforge.com/tools/brickd/linux/brickd_linux_latest_amd64.deb
 sudo dpkg -i brickd_linux_latest_amd64.deb
 #brick viewer
-sudo apt install python3 python3-pyqt5 python3-pyqt5.qtopengl python3-serial python3-tz python3-tzlocal
+sudo apt-get install python3 python3-pyqt5 python3-pyqt5.qtopengl python3-serial python3-tz python3-tzlocal
 wget --backups=1 https://download.tinkerforge.com/tools/brickv/linux/brickv_linux_latest.deb
 sudo dpkg -i brickv_linux_latest.deb
 #Tinkerforge python APIs
