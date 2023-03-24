@@ -13,9 +13,9 @@ In order to give "life" to your printed robot we use some "cool" software 😎, 
 
 Pib uses Raspberry Pi and Ubuntu 22.04 LTS. After installing Ubuntu procceed to the only step in installation 😁
 The shell script installs:
--Git, Curl, Pip, Python3
--DepthAI including (OpenCV and Numpy)
--ROS 2 humble
+- Git, Curl, Pip, Python3
+- DepthAI including (OpenCV and Numpy)
+- ROS 2 humble
 - Tinkerforge software (Brick Daemon, Brick viewer, Python API bindings
 
 ## Copy this command/s into the Ubuntu terminal to install all Pib software
