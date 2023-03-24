@@ -40,8 +40,8 @@ source /opt/ros/humble/setup.bash
 #TinkerForge software including Brick Daemon, Brick Viewer and Python API bindings
 #brick daemon
 sudo apt-get install libusb-1.0-0 libudev1 procps
-wget --backups=1 https://download.tinkerforge.com/tools/brickd/linux/brickd_linux_latest_amd64.deb
-sudo dpkg -i brickd_linux_latest_amd64.deb
+wget --backups=1 https://download.tinkerforge.com/tools/brickd/linux/brickd_linux_latest_amd64.deb #replace link with "https://download.tinkerforge.com/tools/brickd/linux/brickd_linux_latest_arm64.deb" for Arm64 Rpi
+sudo dpkg -i brickd_linux_latest_amd64.deb #replace with "brickd_linux_latest_arm64.deb" for Arm64 Rpi
 #brick viewer
 sudo apt-get install python3 python3-pyqt5 python3-pyqt5.qtopengl python3-serial python3-tz python3-tzlocal
 wget --backups=1 https://download.tinkerforge.com/tools/brickv/linux/brickv_linux_latest.deb
