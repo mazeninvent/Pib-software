@@ -17,7 +17,7 @@ Pib uses Raspberry Pi and Ubuntu 22.04 LTS. After installing Ubuntu procceed to 
 
 ```
 sudo apt install wget 
-wget "https://raw.githubusercontent.com/mazeninvent/Pib-software/main/Pib.sh" install shell script
+wget "https://raw.githubusercontent.com/mazeninvent/Pib-software/main/Pib.sh" #install shell script
 chmod +x ./Pib.sh
 ./Pib.sh
 ```
